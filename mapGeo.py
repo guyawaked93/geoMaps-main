@@ -111,7 +111,7 @@ folium.LayerControl(collapsed=False).add_to(m)
 
 # Mensagem de confirmação ao salvar o mapa
 try:
-    m.save("mapa_escolas_com_limites.html")
+    m.save("index.html")
     print("Mapa salvo com sucesso!")
 except Exception as e:
     print(f"Erro ao salvar o mapa: {e}")
